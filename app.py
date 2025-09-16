@@ -12,7 +12,7 @@ test=pickle.load(open('test1.pkl','rb'))
 def hello_world():
     return render_template("t.html")
 
-@app.route('/predict',methods=['POST','GET'])
+@app.route('/predict',methods=['POST','GET']),
 def predict():
     int_features=[int(x) for x in request.form.values()]
     final=[np.array(int_features)]
@@ -52,5 +52,6 @@ def pie():
 
 if __name__=="__main__":
     app.run() 
+
 
 
