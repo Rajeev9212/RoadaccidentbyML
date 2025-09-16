@@ -2,7 +2,7 @@ Here is a sample **README** for your *RoadAccidentbyML* project. You can copy it
 
 ---
 
-# RoadAccidentbyML
+# RoadAccidentbyML  
 
 A Machine Learning project to predict/assess road accidents in India using historical accident data. The project includes data processing, model training & evaluation, plus a simple web app interface for making predictions.
 
